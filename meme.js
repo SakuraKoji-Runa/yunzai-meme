@@ -7,7 +7,7 @@ import _ from 'lodash'
 if (!global.segment) {
   global.segment = (await import('oicq')).segment
 }
-const baseUrl = 'https://memes.ikechan8370.com'
+const baseUrl = 'http://127.0.0.1:2233'
 /**
  * 机器人发表情是否引用回复用户
  * @type {boolean}
